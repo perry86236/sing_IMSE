@@ -1,5 +1,4 @@
-{
-  "eeee":["354532080851946"],
+{  "eeee":["354532080851946"],
   "a0:"(a)=> a.indexOf(device.getIMEI()!=-1)",
   "a1:"() => id("tv_open").exists()",
   "a2:"() => id("small_red_envelops").exists()",
@@ -9,6 +8,4 @@
   "b1 : "() => id("small_red_envelops").clickable().findOne().click()",
   "b2 : "() => id("tv_open").clickable().findOne().click()",
   "b3 : "() => id("tv_close").clickable().click()",
-  "b4 : "() => id("ibtn_close").clickable().findOne().click()",
-  
-}
+  "b4 : "() => id("ibtn_close").clickable().findOne().click()"}
